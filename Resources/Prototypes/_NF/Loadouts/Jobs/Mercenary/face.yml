@@ -1,0 +1,29 @@
+- type: loadout
+  id: MercenaryClothingMaskGasMercenary
+  equipment: MercenaryClothingMaskGasMercenary
+  price: 0
+
+- type: startingGear
+  id: MercenaryClothingMaskGasMercenary
+  equipment:
+    mask: ClothingMaskGasMercenary
+
+- type: loadout
+  id: MercenaryClothingMaskGasSecurity
+  equipment: MercenaryClothingMaskGasSecurity
+  price: 0
+
+- type: startingGear
+  id: MercenaryClothingMaskGasSecurity
+  equipment:
+    mask: ClothingMaskGasSecurity
+
+- type: loadout
+  id: MercenaryClothingMaskBreathMedical
+  equipment: MercenaryClothingMaskBreathMedical
+  price: 0
+
+- type: startingGear
+  id: MercenaryClothingMaskBreathMedical
+  equipment:
+    mask: ClothingMaskBreathMedical

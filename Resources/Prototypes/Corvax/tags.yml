@@ -1,0 +1,38 @@
+- type: Tag
+  id: Gems
+
+- type: Tag
+  id: Jetpack
+
+- type: Tag
+  id: CartridgeVector22
+
+- type: Tag
+  id: CartridgeVector45
+
+- type: Tag
+  id: MagazineVector22
+
+- type: Tag
+  id: MagazineVector45
+
+- type: Tag
+  id: BackpackHolding
+
+- type: Tag
+  id: BackpackDuffelHolding
+
+- type: Tag
+  id: BackpackSatchelHolding
+
+- type: Tag
+  id: BackpackMessengerHolding
+
+- type: Tag
+  id: DataCrystal
+
+- type: Tag
+  id: PokerCard
+
+- type: Tag
+  id: PokerCardClassic
