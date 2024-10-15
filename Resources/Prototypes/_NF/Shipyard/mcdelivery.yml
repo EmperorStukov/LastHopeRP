@@ -1,0 +1,32 @@
+# Maintainer Info
+# GitHub: dvir001
+# Discord: dvir01 (84770870936997888)
+
+# Shuttle Notes:
+#
+
+- type: vessel
+  id: McDelivery
+  name: NP Курьер
+  description: Персональный малогабаритный шаттл доставки.
+  price: 8500
+  category: Small
+  group: None
+  shuttlePath: /Maps/_NF/Shuttles/mcdelivery.yml
+
+- type: gameMap
+  id: McDelivery
+  mapName: 'NP Курьер'
+  mapPath: /Maps/_NF/Shuttles/mcdelivery.yml
+  minPlayers: 0
+  stations:
+    McDelivery:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Курьер {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs: {}

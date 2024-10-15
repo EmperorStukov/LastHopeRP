@@ -1,0 +1,28 @@
+- type: vessel
+  id: Anchor
+  name: NKC Якорь
+  description: Крупногабаритный экспедиционный шаттл. Рекомендованный размер команды 4-8 человек.
+  price: 135020
+  category: Large
+  group: Expedition
+  shuttlePath: /Maps/_NF/Shuttles/Expedition/anchor.yml
+
+- type: gameMap
+  id: Anchor
+  mapName: 'NKC Якорь'
+  mapPath: /Maps/_NF/Shuttles/Expedition/anchor.yml
+  minPlayers: 0
+  stations:
+    Anchor:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Якорь {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
