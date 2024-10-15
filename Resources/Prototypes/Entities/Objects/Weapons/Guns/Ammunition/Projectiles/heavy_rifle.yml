@@ -1,0 +1,25 @@
+- type: entity
+  id: BulletHeavyRifle
+  name: bullet (.20 rifle)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 19
+    penetrationProb: 0.53  #CorvaxFrontier
+    penetrationScore: 1
+
+- type: entity
+  id: BulletMinigun
+  name: minigun bullet (.10 rifle)
+  parent: BulletHeavyRifle
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 5
+    penetrationProb: 0.04  #CorvaxFrontier
+    penetrationScore: 1

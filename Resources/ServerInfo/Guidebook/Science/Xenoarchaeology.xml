@@ -1,0 +1,60 @@
+<Document>
+<<<<<<< HEAD
+# Xenoarchaeology
+Xenoarchaeology is a field of science focused on researching and experimenting on alien artifacts.
+
+Artifacts can be found by mining asteroids found around the sector, or you can buy some from miners or salvagers.
+
+By researching the unique things each artifact can do, you gain Research Points, increase the artifact's sale value, and potentially discover a useful ability or two!
+
+## Artifact Nodes
+=======
+# Ксеноархеология
+Ксеноархеология - это подразделение научного отдела, занимающееся исследованиями и экспериментами над инопланетными артефактами.
+
+## Артефакты
+>>>>>>> 52c7c8a11c86fbafbf2cf46e548fe9f7f836ce66
+<Box>
+<GuideEntityEmbed Entity="ComplexXenoArtifact" Caption=""/>
+<GuideEntityEmbed Entity="SimpleXenoArtifactItem" Caption=""/>
+</Box>
+Артефакты представляют собой случайно сгенерированные структуры-графы. Они состоят из узлов, соединенных друг с другом, обход которых является главной целью ученых, работающих над ними.
+
+Каждый узел состоит из двух основных компонентов: [color=#a4885c]стимула[/color] и [color=#a4885c]реакции[/color]. Стимул - это внешнее поведение, которое вызывает реакцию. У одних реакций эффект мгновенный, а другие могут вызывать постоянные изменения. Срабатывание реакции вызывает перемещение артефакта к одному из соединённых узлов.
+
+Опираясь на эти базовые принципы, вы можете понять, как связаны между собой различные узлы артефакта и как можно перемещаться между ними, многократно активируя узлы.
+
+<<<<<<< HEAD
+A stimulus is the external behavior that triggers the reaction. There's a variety of these, and higher depth nodes have more difficult to accomplish stimuli. Some stimuli will need improvisation to trigger, and you may need special materials or resources to get everything you need.
+=======
+Хотя неподготовленному наблюдателю все может показаться хаотичным, опытный ученый может научиться понимать внутреннюю структуру любого артефакта.
+>>>>>>> 52c7c8a11c86fbafbf2cf46e548fe9f7f836ce66
+
+## Анализатор артефактов и аналитическая консоль
+<Box>
+<GuideEntityEmbed Entity="MachineArtifactAnalyzer"/>
+<GuideEntityEmbed Entity="ComputerAnalysisConsole"/>
+</Box>
+Главными инструментами, которым вы будете пользоваться занимаясь ксеноархеологией, являются [color=#a4885c]анализатор артефактов[/color] и [color=#a4885c]аналитическая консоль[/color]. С их помощью можно создавать отчеты, содержащие ценную информацию об артефактах.
+
+<<<<<<< HEAD
+To set them up, simply link them with a network configurator and set an artifact on top of the analyzer. Every science vessel has at least one of these machines already set up.
+=======
+Чтобы всё настроить, достаточно связать их с конфигуратора сетей, положить артефакт на анализатор, и нажать кнопку [color=#a4885c]Сканировать[/color].
+>>>>>>> 52c7c8a11c86fbafbf2cf46e548fe9f7f836ce66
+
+При помощи консоли вы можете извлекать очки исследований из артефактов используя кнопку [color=#a4885c]Извлечь О.И.[/color]. Количество получаемых вами очков зависит от того, сколько новых узлов артефакта было активировано, с момента последнего извлечения. Вы можете извлекать по несколько раз, нет причин не делать этого!!!
+
+## Сборка артефактов
+<GuideEntityEmbed Entity="ArtifactFragment" Caption="фрагмент артефакта"/>
+
+Есть возможность получить несколько фрагментов артефактов и собрать их в рабочий артефакт. Их можно попросить у утилизаторов, которые обычно находят их во время добычи на астероидах или во время экспедиций.
+
+<<<<<<< HEAD
+## Assembling Artifacts
+<GuideEntityEmbed Entity="ArtifactFragment" Caption="Artifact Fragment"/>
+
+It is possible to gather multiple artifact fragments and assemble them into a working artifact. You can ask for these from mining ships, who usually find these while mining asteroids or on Expeditions.
+=======
+>>>>>>> 52c7c8a11c86fbafbf2cf46e548fe9f7f836ce66
+</Document>

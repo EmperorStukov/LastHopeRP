@@ -1,0 +1,93 @@
+# Species
+- type: loadoutEffectGroup
+  id: NitrogenBreatherNF
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - SlimePerson
+    - Vox
+
+- type: loadoutEffectGroup
+  id: OxygenBreatherNF
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - Arachnid
+    - Diona
+    - Dwarf
+    - Human
+    - Moth
+    - Reptilian
+    - Goblin
+    - Oni
+    - Felinid
+    - Vulpkanin
+    - Harpy
+
+#T0
+- type: loadout
+  id: ContractorBoxSurvivalNFOxygen
+  equipment: ContractorBoxSurvivalNFOxygen
+<<<<<<< HEAD
+=======
+  name: oxygen survival box
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: OxygenBreatherNF
+>>>>>>> upstream/master
+
+- type: startingGear
+  id: ContractorBoxSurvivalNFOxygen
+  storage:
+    back:
+    - BoxSurvivalNFOxygen
+
+- type: loadout
+  id: ContractorBoxSurvivalNFNitrogen
+  equipment: ContractorBoxSurvivalNFNitrogen
+<<<<<<< HEAD
+=======
+  name: nitrogen survival box
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NitrogenBreatherNF
+>>>>>>> upstream/master
+
+- type: startingGear
+  id: ContractorBoxSurvivalNFNitrogen
+  storage:
+    back:
+    - BoxSurvivalNFNitrogen
+
+#T1
+- type: loadout
+  id: ContractorBoxSurvivalNFOxygenExtended
+  equipment: ContractorBoxSurvivalNFOxygenExtended
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: OxygenBreatherNF
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 1000
+
+- type: startingGear
+  id: ContractorBoxSurvivalNFOxygenExtended
+  storage:
+    back:
+    - BoxSurvivalNFOxygenExtended
+
+- type: loadout
+  id: ContractorBoxSurvivalNFNitrogenExtended
+  equipment: ContractorBoxSurvivalNFNitrogenExtended
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: NitrogenBreatherNF
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 1000
+
+- type: startingGear
+  id: ContractorBoxSurvivalNFNitrogenExtended
+  storage:
+    back:
+    - BoxSurvivalNFNitrogenExtended

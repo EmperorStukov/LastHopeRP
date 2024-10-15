@@ -1,0 +1,163 @@
+﻿- type: entity
+  id: BaseScrapDebris
+  parent: BaseDebris
+  name: Scrap Debris
+  abstract: true
+  components:
+    - type: MapGrid
+    - type: BlobFloorPlanBuilder
+      floorTileset:
+        - Plating
+        - Plating
+        - Plating
+        - FloorSteel
+        - Lattice
+      blobDrawProb: 0.5
+      radius: 6
+      floorPlacements: 16
+    - type: SimpleFloorPlanPopulator
+      entries:
+        Plating:
+          - prob: 3 # Intentional blank.
+          - id: SalvageMaterialCrateSpawner
+            prob: 1
+          - id: SalvageCanisterSpawner
+<<<<<<< HEAD
+            prob: 0.03 # было 0.3
+          - id: SalvageTankSpawner
+            prob: 0.1
+          - id: SalvageLockerSpawner
+            prob: 0.15
+          - id: SalvageSuitStorageSpawner
+            prob: 0.05
+          - id: SalvagePottedPlantsSpawner
+            prob: 0.1
+          - id: SalvageGeneratorSpawner
+            prob: 0.1
+=======
+            prob: 0.2
+>>>>>>> upstream/master
+          - id: SalvageMobSpawner
+            prob: 0.7
+          - id: WallSolid
+            prob: 1
+          - id: Grille
+            prob: 0.5
+        Lattice:
+          - prob: 2
+          - id: Grille
+            prob: 0.2
+          - id: SalvageMaterialCrateSpawner
+            prob: 0.3
+          - id: SalvageCanisterSpawner
+            prob: 0.2
+        FloorSteel:
+          - prob: 3 # Intentional blank.
+          - id: SalvageMaterialCrateSpawner
+            prob: 1
+          - id: SalvageCanisterSpawner
+            prob: 0.2
+          - id: SalvageMobSpawner
+            prob: 0.7
+    - type: IFF
+      flags: HideLabel
+      color: "#88b0d1"
+
+- type: entity
+  id: ScrapDebrisSmall
+  parent: BaseScrapDebris
+  name: Scrap Debris Small
+  noSpawn: true
+  components:
+    - type: MapGrid
+    - type: BlobFloorPlanBuilder
+      floorPlacements: 8
+
+- type: entity
+  id: ScrapDebrisMedium
+  parent: BaseScrapDebris
+  name: Scrap Debris Medium
+  noSpawn: true
+  components:
+    - type: MapGrid
+    - type: BlobFloorPlanBuilder
+      floorPlacements: 16
+
+- type: entity
+  id: ScrapDebrisLarge
+  parent: BaseScrapDebris
+  name: Scrap Debris Large
+  noSpawn: true
+  components:
+    - type: MapGrid
+    - type: BlobFloorPlanBuilder
+<<<<<<< HEAD
+      radius: 12
+      floorPlacements: 36
+      blobDrawProb: 0.625
+
+
+- type: entity
+  id: ScrapDebrisExtraLarge
+  parent: BaseScrapDebris
+  name: Scrap Debris Extra Large
+  noSpawn: true
+  components:
+    - type: MapGrid
+    - type: BlobFloorPlanBuilder
+      radius: 18
+      floorPlacements: 54
+      blobDrawProb: 0.675
+
+
+- type: entity
+  id: ScrapDebrisExtraLargeScattered
+  parent: BaseScrapDebris
+  name: Scrap Debris Extra Large Scattered
+  noSpawn: true
+  components:
+    - type: MapGrid
+    - type: BlobFloorPlanBuilder
+      radius: 18
+      floorPlacements: 54
+      blobDrawProb: 0.3
+
+
+- type: entity
+  id: ScrapDebrisHuge
+  parent: BaseScrapDebris
+  name: Scrap Debris Huge
+  noSpawn: true
+  components:
+    - type: MapGrid
+    - type: BlobFloorPlanBuilder
+      radius: 24
+      floorPlacements: 80
+      blobDrawProb: 0.75
+
+- type: entity
+  id: ScrapDebrisFortress
+  parent: BaseScrapDebris
+  name: Fortress Scrap
+  noSpawn: true
+  components:
+    - type: MapGrid
+    - type: BlobFloorPlanBuilder
+      blobDrawProb: 0.66
+      radius: 50
+      floorPlacements: 500
+
+- type: entity
+  id: ScrapDebrisBehemoth
+  parent: BaseScrapDebris
+  name: Behemoth Scrap
+  noSpawn: true
+  components:
+    - type: MapGrid
+    - type: BlobFloorPlanBuilder
+      blobDrawProb: 0.66
+      radius: 50
+      floorPlacements: 700
+=======
+      floorPlacements: 24
+>>>>>>> upstream/master

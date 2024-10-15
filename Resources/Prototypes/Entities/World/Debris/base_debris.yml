@@ -1,0 +1,12 @@
+﻿- type: entity
+  id: BaseDebris
+  abstract: true
+  components:
+    - type: OwnedDebris
+<<<<<<< HEAD
+    - type: LocalityLoader
+    - type: TimedDespawn
+      lifetime: 600
+=======
+    - type: LocalityLoader
+>>>>>>> upstream/master
