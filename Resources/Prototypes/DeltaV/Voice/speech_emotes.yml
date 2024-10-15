@@ -1,0 +1,279 @@
+# Harpy
+#- type: emote
+#  id: HonkHarpy
+#  category: Vocal
+#  chatMessages: [хонк.] # Only Russian NoW!
+#  chatTriggers:
+#    - хонк
+#    - хонкает.
+#    - хонкает
+
+- type: emote
+  id: Ring
+  name: Ring
+  category: Vocal
+  chatMessages: [звонит.]
+  icon: Interface/Actions/scream.png
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatTriggers:
+    - звонит
+    - звонок.
+    - звонок
+    - звонки.
+    - звонки
+
+- type: emote
+  id: Pew
+  name: Pew
+  category: Vocal
+  chatMessages: [пищит.]
+  icon: Interface/Actions/scream.png
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatTriggers:
+    - пищать.
+    - пищать
+    - писк.
+    - писк
+    - пищать.
+    - пищать!
+    - пищать
+
+- type: emote
+  id: Bang
+  name: Bang
+  category: Vocal
+  chatMessages: [хлопает.]
+  icon: Interface/Actions/scream.png
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatTriggers:
+    - хлопать.
+    - хлопать
+    - похлопать.
+    - похлопать
+    - хлопать!
+    - хлопат.
+    - хлопать
+    - хлопок.
+    - хлопок
+
+#- type: emote
+#  id: Beep
+#  category: Vocal
+#  chatMessages: [beeps.]
+#  chatTriggers:
+#    - beeps.
+#    - beep.
+#    - beep!
+#    - beeping.
+#    - beeped.
+
+
+- type: emote
+  id: Rev
+  name: Rev
+  category: Vocal
+  chatMessages: [визжит.]
+  icon: Interface/Actions/scream.png
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatTriggers:
+    - визг.
+    - визг!
+    - визг
+    - визжать.
+    - визжать
+    - повизгивает.
+    - повизгивает
+
+#- type: emote
+#  id: Click
+#  category: Vocal
+#  chatMessages: [кликает.]
+#  chatTriggers:
+#    - клик.
+#    - клак.
+#    - клик!
+#    - кликать.
+#    - кликает.
+
+- type: emote
+  id: Caw
+  name: Caw
+  category: Vocal
+  chatMessages: [каркает.]
+  icon: Interface/Actions/scream.png
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatTriggers:
+    - каркает
+    - кар.
+    - кар
+    - карр.
+    - карр
+    - кар.
+    - кар!
+    - кар
+    - каркать.
+    - каркать
+
+#Vulpkanin
+- type: emote
+  id: Bark
+  name: Bark
+  category: Vocal
+  chatMessages: [лает.]
+  icon: Interface/Actions/scream.png
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatTriggers:
+    - лает
+    - гав.
+    - гав
+    - нав.
+    - нав!
+    - нав
+    - гавкать.
+    - гавкать!
+    - гавкать
+    - лает.
+    - лает
+    - лаять!
+    - лаять.
+    - лаять
+    - гавкает.
+    - гавкает
+
+- type: emote
+  id: Snarl
+  name: Snarl
+  category: Vocal
+  chatMessages: [рычит.]
+  icon: Interface/Actions/scream.png
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatTriggers:
+    - рычит
+    - рык.
+    - рык!
+    - рык
+    - рычать.
+    - рычать!
+    - рычать
+    - рычит.
+    - рычит!
+    - рычит
+    - рычать.
+    - рычать
+    - рычание.
+    - рычание
+
+- type: emote
+  id: Whine
+  name: Whine
+  category: Vocal
+  chatMessages: [скулит.]
+  icon: Interface/Actions/scream.png
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatTriggers:
+    - скулит
+    - скулить.
+    - скулить!
+    - скулить
+    - скулит.
+    - стонет!
+    - стонет.
+    - стонет
+    - скулеж.
+    - скулеж!
+    - скулеж
+
+- type: emote
+  id: Howl
+  name: Howl
+  category: Vocal
+  chatMessages: [воет.]
+  icon: Interface/Actions/scream.png
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatTriggers:
+    - воет
+    - вой.
+    - вой!
+    - вой
+    - воет.
+    - воет!
+    - воет
+    - выть.
+    - выть
+    - выл.
+    - выл
+
+- type: emote
+  id: Awoo
+  name: Awoo
+  category: Vocal
+  chatMessages: [авукает.]
+  icon: Interface/Actions/scream.png
+  available: false
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    components:
+    - BorgChassis
+  chatTriggers:
+    - авуу.
+    - авуу!
+    - авукает.
+    - авукает!
+    - авуканье.
+    - авукнул.

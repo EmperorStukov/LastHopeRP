@@ -1,0 +1,39 @@
+# Author Info
+# GitHub: ???
+# Discord: ???
+
+# Maintainer Info
+# GitHub: ???
+# Discord: ???
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Sparrow
+  name: NER Воробей
+  description: Малогабаритный инженерно-исследовательский шаттл. Рекомендованный состав команды 1-4 человека.
+  price: 37000 # +4800 from 15% markup
+  category: Small
+  group: Civilian
+  shuttlePath: /Maps/_NF/Shuttles/sparrow.yml
+
+- type: gameMap
+  id: Sparrow
+  mapName: 'NER Воробей'
+  mapPath: /Maps/_NF/Shuttles/sparrow.yml
+  minPlayers: 0
+  stations:
+    Sparrow:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Воробей {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]

@@ -1,0 +1,15 @@
+- type: material
+  id: SheetPrinter
+  stackEntity: SheetPrinter1
+  name: materials-paper
+  icon: { sprite: Objects/Misc/bureaucracy.rsi, state: paper }
+  color: "#ffffff"
+  price: 0.05
+
+- type: material
+  id: Magmite
+  stackEntity: SheetMagmite1
+  name: materials-magmite
+  icon: { sprite: Corvax/Objects/Materials/Sheets/metal.rsi, state: magmite }
+  color: "#df7126"
+  price: 5
