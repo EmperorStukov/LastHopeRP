@@ -1,0 +1,29 @@
+- type: vessel
+  id: KnuckleVerse
+  name: NB КостоЛом
+  description: Среднегабаритный шаттл с боксёрским рингом. Рекомендованный размер команды 2-6 человек.
+  price: 36500
+  category: Medium
+  group: Civilian
+  shuttlePath: /Maps/_NF/Shuttles/knuckleverse.yml
+
+- type: gameMap
+  id: KnuckleVerse
+  mapName: 'NB КостоЛом'
+  mapPath: /Maps/_NF/Shuttles/knuckleverse.yml
+  minPlayers: 0
+  stations:
+    KnuckleVerse:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'КостоЛом {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
