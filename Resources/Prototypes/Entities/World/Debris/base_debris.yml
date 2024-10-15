@@ -1,0 +1,8 @@
+﻿- type: entity
+  id: BaseDebris
+  abstract: true
+  components:
+    - type: OwnedDebris
+    - type: LocalityLoader
+    - type: TimedDespawn #Corvax-Frontier
+      lifetime: 600 #Corvax-Frontier
