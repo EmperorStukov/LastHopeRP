@@ -1,0 +1,188 @@
+- type: marking
+  id: VulpHairAfro
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: afro_s
+      
+- type: marking
+  id: VulpHairBraids
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: braid_s
+      
+- type: marking
+  id: VulpHairCrestedQuills
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: crestedquills_s
+      
+- type: marking
+  id: VulpHairEmperorQuills
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: emperorquills_s
+      
+- type: marking
+  id: VulpHairFlowing
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: flowing_s
+      
+- type: marking
+  id: VulpHairHawk
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: hawk_s
+      
+- type: marking
+  id: VulpHairHorns
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: horns_s
+      
+- type: marking
+  id: VulpHairKeelQuills
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: keelquills_s
+      
+- type: marking
+  id: VulpHairKingly
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: kingly_s
+      
+- type: marking
+  id: VulpHairLongBraid
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: afro_s
+      
+- type: marking
+  id: VulpHairMange
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: mange_s
+
+- type: marking
+  id: VulpHairMohawk
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: mohawk_s
+
+- type: marking
+  id: VulpHairNights
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: nights_s
+      
+- type: marking
+  id: VulpHairPony
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: ponytail_s
+
+- type: marking
+  id: VulpHairRazorClipped
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vox]
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: razor_clipped_s
+
+- type: marking
+  id: VulpHairRazor
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: razor_s
+
+- type: marking
+  id: VulpHairSortBraid
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: short_braid_s
+
+- type: marking
+  id: VulpHairShortQuills
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: shortquills_s
+
+- type: marking
+  id: VulpHairSurf
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: surf_s
+
+- type: marking
+  id: VulpHairTielQuills
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: tielquills_s
+
+- type: marking
+  id: VulpHairYasu
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_hair.rsi
+      state: yasu_s
