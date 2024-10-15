@@ -1,0 +1,28 @@
+- type: vessel
+  id: Dragonfly
+  name: NME Стрекоза
+  description: Среднегабаритный экспедиционный шаттл. Рекомендованный размер команды 2-5 человек.
+  price: 85000
+  category: Medium
+  group: Expedition
+  shuttlePath: /Maps/_NF/Shuttles/Expedition/dragonfly.yml
+
+- type: gameMap
+  id: Dragonfly
+  mapName: 'NME Стрекоза'
+  mapPath: /Maps/_NF/Shuttles/Expedition/dragonfly.yml
+  minPlayers: 0
+  stations:
+    Dragonfly:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Стрекоза {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]

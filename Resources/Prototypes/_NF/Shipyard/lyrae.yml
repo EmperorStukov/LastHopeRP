@@ -1,0 +1,28 @@
+- type: vessel
+  id: Lyrae
+  name: NR Лира
+  description: Среднегабаритный исследовательский шаттл. Рекомендованный состав команды 2-5 человек.
+  price: 51000
+  category: Medium
+  group: Civilian
+  shuttlePath: /Maps/_NF/Shuttles/lyrae.yml
+
+- type: gameMap
+  id: Lyrae
+  mapName: 'NR Лира'
+  mapPath: /Maps/_NF/Shuttles/lyrae.yml
+  minPlayers: 0
+  stations:
+    Lyrae:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Лира {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
