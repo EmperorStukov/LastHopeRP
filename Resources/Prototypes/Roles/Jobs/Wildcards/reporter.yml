@@ -1,0 +1,26 @@
+- type: job
+  id: Reporter
+  name: job-name-reporter
+  description: job-description-reporter
+  playTimeTracker: JobReporter
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 10800
+  startingGear: ReporterGear
+  icon: "JobIconReporter"
+  supervisors: job-supervisors-hire # Frontier
+  accessGroups: # Frontier
+  - GeneralAccess # Frontier
+
+- type: startingGear
+  id: ReporterGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitReporter
+    back: ClothingBackpackReporterFilled # Frontier
+    shoes: ClothingShoesColorWhite
+    id: ReporterPDA
+    ears: ClothingHeadsetService
+  innerClothingSkirt: ClothingUniformJumpsuitJournalist
+  satchel: ClothingBackpackSatchelReporterFilled # Frontier
+  duffelbag: ClothingBackpackDuffelReporterFilled # Frontier
+  messenger: ClothingBackpackMessengerFilled # Frontier

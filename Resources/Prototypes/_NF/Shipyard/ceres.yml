@@ -1,0 +1,30 @@
+- type: vessel
+  id: Ceres
+  name: NC Церера
+  description: Среднегабаритный шаттл-ресторан. Рекомендованный размер команды 2-5 человек.
+  price: 49500
+  category: Medium
+  group: Civilian
+  shuttlePath: /Maps/_NF/Shuttles/ceres.yml
+
+- type: gameMap
+  id: Ceres
+  mapName: 'NC Ceres'
+  mapPath: /Maps/_NF/Shuttles/ceres.yml
+  minPlayers: 0
+  stations:
+    Ceres:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Церера {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            Botanist: [ 0, 0 ]
+            Chef: [ 0, 0 ]
+            ServiceWorker: [ 0, 0 ]
+            Pilot: [ 0, 0 ]

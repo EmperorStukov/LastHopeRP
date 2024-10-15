@@ -1,0 +1,16 @@
+ent-ClothingBackpackMercenaryFilled = { ent-ClothingBackpackMercenary }
+    .desc = { ent-ClothingBackpackMercenary.desc }
+ent-ClothingBackpackReporterFilled = { ent-ClothingBackpack }
+    .desc = { ent-ClothingBackpack.desc }
+ent-ClothingBackpackPsychologistFilled = { ent-ClothingBackpackMedical }
+    .desc = { ent-ClothingBackpackMedical.desc }
+ent-ClothingBackpackLawyerFilled = { ent-ClothingBackpack }
+    .desc = { ent-ClothingBackpack.desc }
+ent-ClothingBackpackStcFilled = { ent-ClothingBackpack }
+    .desc = { ent-ClothingBackpack.desc }
+ent-ClothingBackpackPilotFilled = { ent-ClothingBackpackPilot }
+    .desc = { ent-ClothingBackpackPilot.desc }
+ent-ClothingBackpackOfficerFilled = { ent-ClothingBackpacknfsd }
+    .desc = { ent-ClothingBackpacknfsd.desc }
+ent-ClothingBackpackERTMailCarrierFilled = { ent-ClothingBackpackERTMailCarrier }
+    .desc = { ent-ClothingBackpackERTMailCarrier.desc }

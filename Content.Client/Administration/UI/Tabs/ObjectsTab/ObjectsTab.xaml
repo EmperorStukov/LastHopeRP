@@ -1,0 +1,19 @@
+﻿<Control xmlns="https://spacestation14.io"
+         xmlns:cc="clr-namespace:Content.Client.Administration.UI.CustomControls">
+    <BoxContainer Orientation="Vertical">
+        <BoxContainer Orientation="Horizontal">
+            <Label Name="ShuttlesCount" HorizontalExpand="True" SizeFlagsStretchRatio="0.15"
+                   Text="{Loc Shuttles Count}" />
+            <Label Name="DebrisCount" HorizontalExpand="True" SizeFlagsStretchRatio="0.15"
+                   Text="{Loc Debris Count}" />
+            <Label Name="ExpeditionCount" HorizontalExpand="True" SizeFlagsStretchRatio="0.15"
+                   Text="{Loc Expedition Count}" />
+            <OptionButton Name="ObjectTypeOptions" HorizontalExpand="True" SizeFlagsStretchRatio="0.25"/>
+        </BoxContainer>
+        <cc:HSeparator/>
+        <ScrollContainer HorizontalExpand="True" VerticalExpand="True">
+            <BoxContainer Orientation="Vertical" Name="ObjectList">
+            </BoxContainer>
+        </ScrollContainer>
+    </BoxContainer>
+</Control>

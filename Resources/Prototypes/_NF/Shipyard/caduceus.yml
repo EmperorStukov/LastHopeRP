@@ -1,0 +1,33 @@
+- type: vessel
+  id: caduceus
+  name: NM Кадуцей
+  description: Крупногабаритный медицинский шаттл. Рекомендованный размер команды 4-8 человек.
+  price: 105000
+  category: Large
+  group: Civilian
+  shuttlePath: /Maps/_NF/Shuttles/caduceus.yml
+
+- type: gameMap
+  id: caduceus
+  mapName: 'NM Caduceus'
+  mapPath: /Maps/_NF/Shuttles/caduceus.yml
+  minPlayers: 0
+  stations:
+    caduceus:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Кадуцей {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            Paramedic: [ 0, 0 ]
+            ChiefMedicalOfficer: [ 0, 0 ]
+            MedicalDoctor: [ 0, 0 ]
+            Chemist: [ 0, 0 ]
+            Borg: [ 0, 0 ]
+            StationEngineer: [ 0, 0 ]
+            MedicalIntern: [ 0, 0 ]

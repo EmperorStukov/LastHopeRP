@@ -1,0 +1,44 @@
+- type: entity
+  id: BluespaceCargo
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    weight: 5
+    startDelay: 30
+    duration: 35
+  - type: BluespaceCargoRule
+
+- type: entity
+  id: BluespaceSyndicateCrate
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    weight: 1
+    startDelay: 30
+    duration: 35
+    earliestStart: 90
+    minimumPlayers: 20
+  - type: BluespaceSyndicateCrateRule
+    
+# Corvax-start
+# - type: entity
+#  id: ShipyardRandomVesselError
+#  parent: BaseGameRule
+#  noSpawn: true
+#  components:
+#  - type: StationEvent
+#    startAnnouncement: Из-за ошибки в программном обеспечении верфи, некоторые новые суда были случайно отправлены в данный сектор.
+#    startAudio:
+#      path: /Audio/Misc/notice1.ogg
+#    earliestStart: 80
+#    minimumPlayers: 30
+#    weight: 8
+#    startDelay: 10
+#    duration: 1800
+#    maxDuration: 2400
+#  - type: RandomShipyardErrorRule
+# Corvax-end

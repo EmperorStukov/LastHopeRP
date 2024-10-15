@@ -1,0 +1,12 @@
+ent-ShredderMachineCircuitboard = измельчитель (машинная плата)
+    .desc = Печатная плата измельчителя.
+ent-SmallThrusterMachineCircuitboard = мини-двигатель (машинная плата)
+    .desc = { ent-BaseMachineCircuitboard.desc }
+ent-SmallGyroscopeMachineCircuitboard = мини-гироскоп (машинная плата)
+    .desc = { ent-BaseMachineCircuitboard.desc }
+ent-ThrusterSecurityMachineCircuitboard = двигатель патрульной службы (машинная плата)
+    .desc = { ent-BaseMachineCircuitboard.desc }
+ent-TilePrinterNFMachineCircuitboard = Плиточник 5000 (машинная плата)
+    .desc = Печатная плата Плиточник 5000
+ent-SalvageTechFabCircuitboardNF = утилизационный техфаб (машинная плата)
+    .desc = Печатная плата утилизационного техфаба.

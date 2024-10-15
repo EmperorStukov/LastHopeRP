@@ -1,0 +1,5 @@
+﻿- type: gcQueue
+  id: SpaceDebris
+  depth: 256 # Corvax 
+  minDepthToProcess: 128 # Corvax 
+  trySkipQueue: true  # Попытка немедленного удаления, если это возможно
