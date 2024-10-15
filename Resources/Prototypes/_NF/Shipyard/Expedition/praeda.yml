@@ -1,0 +1,38 @@
+# Author Info
+# GitHub: @drhat (https://github.com/drhat)
+# Discord: ???
+
+# Maintainer Info
+# GitHub: ???
+# Discord: ???
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Praeda
+  name: NLE Добытчик
+  description: Крупногабаритный многоцелевой экспедиционный шаттл. Рекомендованный состав команды 4-8 человек.
+  price: 150000
+  category: Large
+  group: Expedition
+  shuttlePath: /Maps/_NF/Shuttles/Expedition/praeda.yml
+
+- type: gameMap
+  id: Praeda
+  mapName: 'NLE Добытчик'
+  mapPath: /Maps/_NF/Shuttles/Expedition/praeda.yml
+  minPlayers: 0
+  stations:
+    Praeda:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Добытчик {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]

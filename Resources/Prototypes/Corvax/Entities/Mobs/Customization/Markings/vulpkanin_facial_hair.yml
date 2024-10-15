@@ -1,0 +1,45 @@
+# Corvax-Frontier-Vulpkanin
+- type: marking
+  id: VulpFacialHairBeard
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_facial_hair.rsi
+      state: beard_s
+      
+- type: marking
+  id: VulpFacialHairColonel
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_facial_hair.rsi
+      state: colonel_s
+      
+- type: marking
+  id: VulpFacialHairFu
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_facial_hair.rsi
+      state: fu_s
+      
+- type: marking
+  id: VulpFacialHairMane
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_facial_hair.rsi
+      state: mane_s
+      
+- type: marking
+  id: VulpFacialHairNeck
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  speciesRestriction: [Vulpkanin] # Corvax-Frontier-Vulpkanin
+  sprites:
+    - sprite: Mobs/Customization/vox_facial_hair.rsi
+      state: neck_s

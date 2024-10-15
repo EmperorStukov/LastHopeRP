@@ -1,0 +1,120 @@
+- type: entity
+  abstract: true
+  parent: BaseItem
+  id: BaseMagazineBoxRifle
+  components:
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeRifle
+    proto: CartridgeRifle
+    capacity: 50
+  - type: Item
+    size: Small
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+# Boxes
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: MagazineBoxRifleBig
+  name: ammunition box (.20 rifle)
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 200
+    proto: CartridgeRifle
+  - type: Icon # Frontier
+    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi # Frontier
+    state: bigdisplay # Frontier
+  - type: Sprite
+    layers:
+    - state: base-b
+      map: ["enum.GunVisualLayers.Base"]
+    - state: magb-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: magb
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: MagazineBoxRifle
+  name: ammunition box (.20 rifle)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifle
+  - type: Icon # Frontier
+    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi # Frontier
+    state: display # Frontier
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: MagazineBoxRiflePractice
+  name: ammunition box (.20 rifle practice)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRiflePractice
+  - type: Icon # Frontier
+    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi # Frontier
+    state: practicedisplay # Frontier
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: practice
+
+- type: entity
+  id: MagazineBoxRifleIncendiary
+  parent: BaseMagazineBoxRifle
+  name: ammunition box (.20 rifle incendiary)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleIncendiary
+  - type: Icon # Frontier
+    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi # Frontier
+    state: incendiarydisplay # Frontier
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: incendiary
+
+- type: entity
+  id: MagazineBoxRifleUranium
+  parent: BaseMagazineBoxRifle
+  name: ammunition box (.20 rifle uranium)
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleUranium
+  - type: Icon # Frontier
+    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi # Frontier
+    state: uraniumdisplay # Frontier
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+    - state: uranium
+

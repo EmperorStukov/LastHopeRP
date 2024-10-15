@@ -1,0 +1,15 @@
+- type: entity
+  noSpawn: true
+  parent: BaseBullet
+  id: BulletAntiMateriel
+  name: bullet (.60 anti-materiel)
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 40
+        Structural: 30
+    penetrationProb: 1  #CorvaxFrontier
+    penetrationScore: 3
+  - type: StaminaDamageOnCollide
+    damage: 35

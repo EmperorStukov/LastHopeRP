@@ -1,0 +1,31 @@
+- type: vendingMachineInventory
+  id: ChefvendInventory
+  startingInventory:
+    ReagentContainerFlour: 5 # Frontier - 2<5
+    ReagentContainerCornmeal: 5 # Frontier - 2<5
+    ReagentContainerSugar: 5 # Frontier - 2<5
+    ReagentContainerRice: 5 # Frontier - 2<5
+    ReagentContainerRaisin: 5 # Frontier
+    ReagentContainerChocolate: 5 # Frontier
+#    FoodCondimentPacketSalt: 4 # Frontier - Replaced with big salt
+    ReagentContainerSalt: 5 # Frontier
+    ReagentContainerPepper: 5 # Frontier
+    DrinkKegPlasticKetchup: 1 # Frontier - Refills
+    DrinkKegPlasticMustard: 1 # Frontier - Refills
+    FoodCondimentBottleEnzyme: 5 # Frontier 2<5
+    FoodCondimentBottleHotsauce: 2
+    FoodCondimentBottleKetchup: 2
+    FoodCondimentBottleBBQ: 2
+    FoodCondimentBottleVinegar: 5  # Frontier 2<5
+#    ReagentContainerOliveoil: 2 # Frontier - Replaced with OilJarOlive
+    OilJarOlive: 3
+    OilJarCorn: 3
+    OilJarGhee: 3
+    ReagentContainerMayo: 2
+    VariantCubeBox: 3
+    FoodContainerEgg: 3
+    DrinkMilkCarton: 2
+    DrinkSoyMilkCarton: 2
+    FoodButter: 4
+    FoodCheese: 2
+    FoodMeat: 6
