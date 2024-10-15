@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Copyright by https://github.com/sojourn-13/sojourn-station",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "pill_canister"
+    },
+    {
+      "name": "pill_black"
+    },
+    {
+      "name": "pill_blue"
+    },
+    {
+      "name": "pill_dred"
+    },
+    {
+      "name": "pill_green"
+    },
+    {
+      "name": "pill_lred"
+    },
+    {
+      "name": "pill_orange"
+    },
+    {
+      "name": "pill_pink"
+    },
+    {
+      "name": "pill_rainbow"
+    },
+    {
+      "name": "pill_red"
+    },
+    {
+      "name": "pill_white"
+    },
+    {
+      "name": "pill_yellow"
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
+    }
+  ]
+}
