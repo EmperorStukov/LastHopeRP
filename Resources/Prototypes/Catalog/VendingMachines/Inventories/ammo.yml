@@ -1,0 +1,30 @@
+- type: vendingMachineInventory
+  id: AmmoVendInventory
+  startingInventory:
+    SurvivalKnife: 10
+    WeaponLaserPistolNF: 10 # Frontier
+    WeaponSniperMosin: 10
+    WeaponSniperRepeater: 10
+    WeaponSubMachineGunVector45: 3 #FrontierCorvax
+    WeaponRifleGestio: 10
+    WeaponRifleNovaliteC1: 5
+    MagazineBoxLightRifle: 10
+    MagazineBoxLightRiflePractice: 10
+    MagazineVector45: 5 #FrontierCorvax
+    MagazineVector45Practice: 10 #FrontierCorvax
+    MagazineBoxVector45: 5 #FrontierCorvax
+    MagazineBoxVector45Practice: 10 #FrontierCorvax
+    MagazineBoxLightRifleRubber: 15
+    WeaponShotgunDoubleBarreled: 10
+    WeaponRevolverArgenti: 10
+    BoxShotgunSlug: 10
+    BoxLethalshot: 10
+    BoxBeanbag: 10
+    MagazineBoxRifle: 10
+    MagazineBoxRifleRubber: 15
+    MagazineBoxMagnum: 10
+    SpeedLoaderRifleHeavyEmpty: 10
+    MagazineNovaliteC1Empty: 10
+    MagazineRifleLowCapacityEmpty: 10
+  emaggedInventory:
+    WeaponPistolViper: 1

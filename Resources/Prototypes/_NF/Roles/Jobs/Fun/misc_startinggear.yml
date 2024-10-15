@@ -1,0 +1,19 @@
+- type: startingGear
+  id: MobClippyGear
+  equipment:
+    head: ClothingHeadMailCarrier
+#    ears: ClothingHeadsetService
+    id: MailCarrierNFIDCard
+
+- type: startingGear
+  id: MobClarpyGear
+  equipment:
+    head: ClothingHeadHatPirate
+    id: PirateFirstMateNFIDCard
+
+- type: startingGear
+  id: MobCappyGear
+  equipment:
+    head: ClothingHeadHatNfsdSmallCampaign
+    id: DeputyIDCard
+    belt: ClothingBeltNfsdWebbing
