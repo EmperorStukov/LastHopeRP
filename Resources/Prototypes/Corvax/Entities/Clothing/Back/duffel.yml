@@ -1,0 +1,34 @@
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelMilitary
+  name: army duffel bag
+  description: A large duffel bag for holding any army goods.
+  components:
+  - type: Sprite
+    sprite: Corvax/Back/Duffels/military.rsi
+  - type: Storage
+    grid:
+    - 0,0,7,4
+    maxItemSize: Huge
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelCE
+  name: chief engineer duffel bag
+  description: A large duffel bag for all instruments you need to create singularity.
+  components:
+  - type: Sprite
+    sprite: Corvax/Back/Duffels/ce.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffelHolding
+  id: ClothingBackpackDuffelHoldingExtended
+  noSpawn: true
+  components:
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,19,9
+  - type: Construction
+    graph: clothingBackpackDuffelHoldingExtended
+    node: bluespace2

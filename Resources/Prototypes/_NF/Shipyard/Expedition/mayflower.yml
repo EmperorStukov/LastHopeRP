@@ -1,0 +1,29 @@
+- type: vessel
+  id: Mayflower
+  name: NME Боярышник
+  description: Среднегабаритный экспедиционный шаттл. Рекомендованный состав команды 2-4 человека.
+  price: 50000
+  category: Medium
+  group: Expedition
+  shuttlePath: /Maps/_NF/Shuttles/Expedition/mayflower.yml
+
+- type: gameMap
+  id: Mayflower
+  mapName: 'NME Боярышник'
+  mapPath: /Maps/_NF/Shuttles/Expedition/mayflower.yml
+  minPlayers: 0
+  stations:
+    Mayflower:
+      stationProto: StandardFrontierExpeditionVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Боярышник {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
