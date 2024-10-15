@@ -1,0 +1,29 @@
+- type: job
+  id: ResearchDirector
+  name: job-name-rd
+  description: job-description-rd
+  playTimeTracker: JobResearchDirector
+  setPreference: false # Frontier
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 10800
+  weight: 10
+  startingGear: ResearchDirectorGear
+  icon: "JobIconResearchDirector"
+#  requireAdminNotify: true
+  supervisors: job-supervisors-hire # Frontier
+#  canBeAntag: false
+  accessGroups: # Frontier
+  - GeneralAccess # Frontier
+#  special:
+#  - !type:AddImplantSpecial
+#    implants: [ MindShieldImplant ]
+#  - !type:AddComponentSpecial
+#    components:
+#      - type: CommandStaff
+
+- type: startingGear
+  id: ResearchDirectorGear
+  equipment:
+    id: RnDPDA
+    ears: ClothingHeadsetRD
