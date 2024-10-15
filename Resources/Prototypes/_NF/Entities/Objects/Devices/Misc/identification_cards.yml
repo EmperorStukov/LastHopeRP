@@ -1,0 +1,255 @@
+- type: entity
+  parent: IDCardStandard
+  id: MercenaryIDCard
+  name: mercenary ID card
+  components:
+  - type: PresetIdCard
+    job: Mercenary
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: default
+    - state: idmercenary
+  - type: Clothing
+    sprite: _NF/Objects/Misc/id_cards.rsi
+
+- type: entity
+  parent: IDCardStandard
+  id: PilotIDCard
+  name: pilot ID card
+  components:
+  - type: PresetIdCard
+    job: Pilot
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: default
+    - state: idpilot
+  - type: Clothing
+    sprite: _NF/Objects/Misc/id_cards.rsi
+
+- type: entity
+  parent: IDCardStandard
+  id: StcIDCard
+  name: station traffic controller ID card
+  components:
+  - type: PresetIdCard
+    job: StationTrafficController
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: silver
+    - state: idstationtrafficcontroller
+  - type: Clothing
+    sprite: _NF/Objects/Misc/id_cards.rsi
+  - type: Item
+    heldPrefix: silver
+
+- type: entity
+  parent: IDCardStandard
+  id: CadetIDCard
+  name: nfsd cadet ID card
+  components:
+  - type: PresetIdCard
+    job: Cadet
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: nfsd
+    - state: idnfsdcadet
+  - type: Clothing
+    sprite: _NF/Objects/Misc/id_cards.rsi
+  - type: Item
+    heldPrefix: nfsd
+
+- type: entity
+  parent: CadetIDCard
+  id: DeputyIDCard
+  name: nfsd deputy ID card
+  components:
+  - type: PresetIdCard
+    job: Deputy
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: nfsd
+    - state: idnfsddeputy
+
+- type: entity
+  parent: CadetIDCard
+  id: BrigmedicNFIDCard
+  name: nfsd brigmedic ID card
+  components:
+  - type: PresetIdCard
+    job: Brigmedic
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: nfsd
+    - state: idnfsdbrigmed
+
+- type: entity
+  parent: CadetIDCard
+  id: SergeantIDCard
+  name: nfsd sergeant ID card
+  components:
+  - type: PresetIdCard
+    job: SeniorOfficer
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: nfsd
+    - state: idnfsdsergeant
+
+- type: entity
+  parent: CadetIDCard
+  id: BailiffIDCard
+  name: nfsd bailiff ID card
+  components:
+  - type: PresetIdCard
+    job: Bailiff
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: nfsd
+    - state: idnfsdbailiff
+
+- type: entity
+  parent: CadetIDCard
+  id: ShriffIDCard
+  name: nfsd sheriff ID card
+  components:
+  - type: PresetIdCard
+    job: Sheriff
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: silver
+    - state: idnfsdsheriff
+  - type: Item
+    heldPrefix: silver
+
+- type: entity
+  parent: CadetIDCard
+  id: DetectiveNFIDCard
+  name: nfsd detective ID card
+  components:
+  - type: PresetIdCard
+    job: DetectiveNF
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: nfsd
+    - state: idnfsddetective
+
+- type: entity
+  parent: SecurityIDCard
+  id: SecurityGuardIDCard
+  name: security guard ID card
+  components:
+  - type: PresetIdCard
+    job: SecurityGuard
+
+- type: entity
+  parent: ERTChaplainIDCard
+  id: ERTMailCarrierIDCard
+  name: ERT mail carrier ID card
+  components:
+  - type: IdCard
+    jobTitle: ERT Mail Carrier
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: gold
+    - state: ert_mailcarrier
+
+- type: entity
+  parent: HoPIDCard
+  id: SrIDCard
+  name: station representative ID card
+  components:
+  - type: PresetIdCard
+    job: StationRepresentative
+
+- type: entity
+  parent: MailCarrierIDCard
+  id: MailCarrierNFIDCard
+  name: mail carrier ID card
+  components:
+  - type: PresetIdCard
+    job: MailCarrier
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: default
+    - state: idmailcarrier
+
+- type: entity
+  parent: ValetIDCard
+  id: ValetNFIDCard
+  name: valet ID card
+  components:
+  - type: PresetIdCard
+    job: Valet
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: default
+    - state: idvalet
+
+- type: entity
+  parent: PassengerIDCard
+  id: ContractorIDCard
+  name: contractor ID card
+  components:
+  - type: PresetIdCard
+    job: Contractor
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: default
+    - state: idcontractor
+
+- type: entity
+  parent: PirateIDCard
+  id: PirateNFIDCard
+  name: pirate ID card
+  description: Garr, be this wood?
+  noSpawn: false # true in parent
+  components:
+  - type: PresetIdCard
+    job: Pirate
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: pirate
+    - state: idpirate
+  - type: Item
+    heldPrefix: pirate
+
+- type: entity
+  parent: PirateNFIDCard
+  id: PirateCaptainNFIDCard
+  name: pirate captain ID card
+  description: Ahoy, see how it glistens!
+  components:
+  - type: PresetIdCard
+    job: PirateCaptain
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: pirate
+    - state: idpiratecaptain
+
+- type: entity
+  parent: PirateNFIDCard
+  id: PirateFirstMateNFIDCard
+  name: pirate first mate ID card
+  components:
+  - type: PresetIdCard
+    job: PirateFirstMate
+  - type: Sprite
+    sprite: _NF/Objects/Misc/id_cards.rsi
+    layers:
+    - state: pirate
+    - state: idpiratefirstmate

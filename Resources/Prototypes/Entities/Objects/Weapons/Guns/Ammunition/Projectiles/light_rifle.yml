@@ -1,0 +1,60 @@
+- type: entity
+  id: BulletLightRifle
+  name: bullet (.30 rifle)
+  parent: BaseBullet
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 19
+    penetrationProb: 0.53  #CorvaxFrontier
+    penetrationScore: 1
+
+- type: entity
+  id: BulletLightRiflePractice
+  name: bullet (.30 rifle practice)
+  parent: BaseBulletPractice
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 2
+
+- type: entity
+  id: BulletLightRifleRubber
+  name: bullet (.30 rifle rubber)
+  parent: BaseBulletRubber
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 3
+
+- type: entity
+  id: BulletLightRifleIncendiary
+  parent: BaseBulletIncendiary
+  name: bullet (.30 rifle incendiary)
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 3
+        Heat: 16
+
+- type: entity
+  id: BulletLightRifleUranium
+  parent: BaseBulletUranium
+  name: bullet (.30 rifle uranium)
+  noSpawn: true
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Radiation: 9
+        Piercing: 10
+    penetrationProb: 0.24  #CorvaxFrontier
+    penetrationScore: 1
