@@ -1,0 +1,31 @@
+<Document>
+  # Расы
+
+  Нанотразен нанимает разнообразные разумные виды.
+
+  <Box>
+  <GuideEntityEmbed Entity="MobArachnid" Caption="Арахнид"/>
+  <GuideEntityEmbed Entity="MobDiona" Caption="Диона"/>
+  <GuideEntityEmbed Entity="MobDwarf" Caption="Дворф"/>
+  <GuideEntityEmbed Entity="MobHuman" Caption="Человек"/>
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="MobMoth" Caption="Ниан"/>
+  <GuideEntityEmbed Entity="MobReptilian" Caption="Унатх"/>
+  <GuideEntityEmbed Entity="MobVulpkanin" Caption="Вульпканин"/>
+  <GuideEntityEmbed Entity="MobSlimePerson" Caption="Слаймолюд"/>
+  </Box>
+
+  # Frontier specific species
+  <Box>
+  <GuideEntityEmbed Entity="MobGoblin" Caption="Goblin"/>
+  </Box>
+  # Delta-V specific species
+  <Box>
+  <GuideEntityEmbed Entity="MobVulpkanin" Caption="Vulpkanin"/>
+  <GuideEntityEmbed Entity="MobFelinid" Caption="Felinid"/>
+  <GuideEntityEmbed Entity="MobHarpy" Caption="Harpy"/>
+  <GuideEntityEmbed Entity="MobOni" Caption="Oni"/>
+  </Box>
+
+</Document>
