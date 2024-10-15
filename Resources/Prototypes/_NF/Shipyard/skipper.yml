@@ -1,0 +1,38 @@
+# Author Info
+# GitHub: ???
+# Discord: ???
+
+# Maintainer Info
+# GitHub: ???
+# Discord: ???
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Skipper
+  name: NBC Шкипер
+  description: Малогабаритный ботанический шаттл-ресторан. Рекомендованный состав команды 1-2 человека.
+  price: 37500
+  category: Small
+  group: Civilian
+  shuttlePath: /Maps/_NF/Shuttles/skipper.yml
+
+- type: gameMap
+  id: Skipper
+  mapName: 'NBC Шкипер'
+  mapPath: /Maps/_NF/Shuttles/skipper.yml
+  minPlayers: 0
+  stations:
+    Skipper:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Шкипер {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            Botanist: [ 0, 0 ]
+            Chef: [ 0, 0 ]

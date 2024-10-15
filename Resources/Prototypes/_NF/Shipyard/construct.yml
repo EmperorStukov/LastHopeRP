@@ -1,0 +1,27 @@
+- type: vessel
+  id: Construct
+  name: NT Каркас
+  description: Чисто технически это тоже шаттл. Не рекомендуется никому.
+  price: 12075
+  category: Small
+  group: Civilian
+  shuttlePath: /Maps/_NF/Shuttles/construct.yml
+
+- type: gameMap
+  id: Construct
+  mapName: 'NT Каркас'
+  mapPath: /Maps/_NF/Shuttles/construct.yml
+  minPlayers: 0
+  stations:
+    Construct:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Каркас {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            Passenger: [ 0, 0 ]

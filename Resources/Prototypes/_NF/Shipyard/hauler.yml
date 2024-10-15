@@ -1,0 +1,30 @@
+- type: vessel
+  id: hauler
+  name: NMS Тягач
+  description: Среднегабаритный добывающий шаттл. Рекомендованный состав команды 3-6 человек.
+  price: 60000
+  category: Medium
+  group: Civilian
+  shuttlePath: /Maps/_NF/Shuttles/hauler.yml
+
+- type: gameMap
+  id: hauler
+  mapName: 'NMS Тягач'
+  mapPath: /Maps/_NF/Shuttles/hauler.yml
+  minPlayers: 0
+  stations:
+    hauler:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Тягач {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            CargoTechnician: [ 0, 0 ]
+            Bartender: [ 0, 0 ]
+            SalvageSpecialist: [ 0, 0 ]
+            Quartermaster: [ 0, 0 ]
